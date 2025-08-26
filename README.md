@@ -38,7 +38,7 @@ modetect/
 
 1. 克隆项目
 ```bash
-git clone https://github.com/yourusername/modetect.git
+git clone https://github.com/sscyss/action-recognition.git
 cd modetect
 ```
 
@@ -51,6 +51,12 @@ pip install -r requirements.txt
 ```bash
 # 模型文件较大，建议从项目发布页面下载
 # 或使用提供的下载脚本
+```
+
+4. 下载HMDB51数据集
+```bash
+# 访问官方数据集网站申请下载
+# 官方地址：http://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/
 ```
 
 ## 使用方法
@@ -83,6 +89,11 @@ python infer.py --video path/to/video.mp4
 - 手势动作：wave, clap, point
 - 其他动作：smile, laugh, drink, eat
 
+### HMDB51数据集下载
+
+**官方地址**：[HMDB51: A Large Video Database for Human Motion Recognition](http://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/)
+
+
 ## 模型说明
 
 - 基于预训练的3D卷积神经网络
@@ -113,7 +124,7 @@ python infer.py --video path/to/video.mp4
 
 - 项目维护者：[Your Name]
 - 邮箱：[your.email@example.com]
-- 项目链接：[https://github.com/yourusername/modetect](https://github.com/yourusername/modetect)
+- 项目链接：[https://github.com/sscyss/action-recognition](https://github.com/sscyss/action-recognition)
 
 ## 致谢
 
